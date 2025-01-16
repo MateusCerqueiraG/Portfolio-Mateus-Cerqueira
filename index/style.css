@@ -132,6 +132,38 @@ p#A {
     text-align: left;
 }
 
+section#PORT {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #4C1A57;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+h1#humM {
+    font-size: 145px;
+    color: #B86FC8;
+    text-align: left;
+}
+
+.text-container2 {
+    width: 55%; 
+    margin-left: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img#PC {
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 20px; 
+}
+
 footer {
     background-color: #6F3A80;
     background-repeat: no-repeat;
