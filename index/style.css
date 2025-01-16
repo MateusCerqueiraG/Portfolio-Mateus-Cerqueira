@@ -7,6 +7,10 @@
     font-family: "Roboto Mono", serif;
 }
 
+html {
+    scroll-behavior: smooth;
+    }
+
 body {
     margin: 0 auto;
     background-color: #1C1C1E;
@@ -162,6 +166,122 @@ img#PC {
     height: auto;
     border-radius: 10px;
     margin-left: 20px; 
+}
+
+section#PROJ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background-color: #1C1C1E;
+    border-radius: 30px;
+    margin-top: 80px;
+}
+
+.image-container2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.image-item {
+    text-align: center;
+    max-width: 500px;
+}
+
+img#logoSS {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    margin-bottom: 10px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 2px #B86FC8, 0 0 12px #B86FC8, 0 0 22px #B86FC8;
+}
+
+.image-item p {
+    font-size: 14px;
+    color: #333;
+    margin-top: 5px;
+}
+
+h1#humC {
+    font-size: 145px;
+    color: #4C1A57;
+    text-align: center;
+}
+
+p#B {
+    color: #ffffff;
+    font-size: 25px;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.BOTAO {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 20px 40px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #B86FC8;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.5s;
+}
+
+.BOTAO:hover {
+    background-color: #683e72;
+    transform: translateY(-5px);
+}
+
+section#CONT {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding: 20px;
+    background: linear-gradient(to right, #4C1A57, #B86FC8);    
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+img#GITICON {
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.social-links {
+    display: flex;
+    gap: 20px;
+    justify-content: left;
+    align-items: left;
+    margin-top: 10px;
+}
+
+.social-links a {
+    font-size: 7rem;
+    color: #a36bc4;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.social-links a:hover {
+    color: #6F3A80; 
+    transform: scale(1.2);
+}
+
+p#C {
+    color: #ffffff;
+    font-size: 25px;
+    line-height: 1.5;
+    text-align: left;
 }
 
 footer {
